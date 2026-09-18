@@ -8,25 +8,25 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <FrameLayout
+    <LinearLayout
+        android:id="@+id/ContenedorArriba"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
 
-    </FrameLayout>
-
-    <FrameLayout
+    <LinearLayout
+        android:id="@+id/ContenedorMedio"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
 
-    </FrameLayout>
-
-    <FrameLayout
+    <LinearLayout
+        android:id="@+id/ContenedorAbajo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
-
-    </FrameLayout>
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
 
 </LinearLayout>
